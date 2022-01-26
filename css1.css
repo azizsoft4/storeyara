@@ -1,0 +1,145 @@
+*{
+box-sizing: border-box;
+transition: all .3s;
+}
+body{
+background:#f8f8f8;}
+
+
+
+
+
+
+
+.vimg{height:200px;width: 200px;
+background-size:100% auto;background-position:center;}
+
+
+
+
+
+
+
+
+
+
+#mainnbt{width:100%;}
+
+
+.widget-content{padding:5px;}
+.blocks{width:100%;}
+.blocks .widget{overflow:clip;background:#fff;border:1px solid #E5E5E5;margin:0 0 5px 0;}
+
+
+@media all and (min-width:900px){
+	#mainnbt{width:calc(100% - 310px);}
+.blocks{width:300px;}
+
+
+}
+
+
+
+
+.v21img{
+display:none;
+
+}
+
+
+	.mini_do{
+width:100%;overflow:clip;
+background-position:center;
+background-repeat:no-repeat;
+background-size:100% auto;
+position:relative;padding-top:100%;
+
+}
+
+.mini_do2{
+padding:5px;
+font-size:20px;
+position:absolute;
+width:100%;
+bottom:0;
+background:#defa;
+
+}
+.t00{width:100%;padding:0 1% 1% 1%;}
+
+@media all and (min-width:600px){
+
+	
+
+	.v2{display:inline-block;vertical-align:top;width:50%;}
+
+	
+	
+
+	
+
+
+
+.v21img{
+display: block;
+max-height:350px;
+min-height:300px;
+overflow: auto;
+background: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Loadin_8_part.svg) no-repeat center;
+}
+
+
+.vimg{height:50px;width: 50px;}
+
+}
+
+
+#vewerb .vimg{
+	
+	height:100px;width: 100px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mini_prix{
+position:absolute;
+background:#defa;
+padding:10px 20px;
+box-shadow:0 0 6px #0006;
+bottom:30%;left:0;
+}
+
+.mini_do:hover{
+
+background-size: 120% auto;
+}
+
+
+
+
+
+.l{display:inline-block;vertical-align:top;}.o0{opacity: .3;}.n{display:none;}img{max-width:100%;}.detales2{padding:2px 15px;border:double #def;border-width:0 0 4px 0;}
+.ho{font-size:20px;padding:10px 5px;}a{text-decoration:none;color:#000;}.yaramode{max-width:1000px;margin:auto;}
+.nowrap{white-space:nowrap;overflow:auto;}.bhov{cursor:pointer;margin:3px;outline:3px solid #7770;}.act,.bhov:hover{outline:3px solid #777;}
+.iti{cursor:pointer;position:absolute;bottom:0;padding:16px;font-weight:bold;font-size:40px;text-shadow:0 0 8px #fff;}.iti:hover{text-shadow: 0 0 14px #fff;}
+.vcolor{width:30px;height:30px;}.vtail{text-align:center;background:#ddd;min-width:30px;padding:3px;}
+.d24_post{overflow:clip;margin-bottom:20px;background:#fff;border:1px solid #E5E5E5;}
+
