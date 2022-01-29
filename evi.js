@@ -51,3 +51,23 @@ function mi(s){
 
    document.write('<div class="mini_do" style="background-image:url('+d['img'][0]+'=s800);"><div class="mini_prix"><span class="mini_prixv">'+d['deta'][2]+'</span>dh</div><div class="mini_do2">'+d['deta'][0]+'</div></div>');
 }
+
+
+
+function addtocart(){
+var el = document.getElementById('addpro');
+el.innerHTML = "<img height='45px' src='https://upload.wikimedia.org/wikipedia/commons/0/08/Loadin_8_part.svg'/>";
+let x = new XMLHttpRequest();
+x.onreadystatechange = function(){
+if (x.readyState == 4 && x.status == 200){
+	
+	el.innerHTML =x.response;
+
+
+
+}};
+x.open('POST','https://a000a.eu5.org/stor/index.php',true);
+x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+x.send('a='+JSON.stringify(d)); 
+
+}
