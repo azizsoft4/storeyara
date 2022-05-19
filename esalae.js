@@ -21,7 +21,7 @@ x.send();
 
 function pgx(id){
 	s("#pgx").classList.add('d');
-aji({"url":"https://www.esalserv.cf/feeds/posts/default/"+id+"?alt=json",
+aji({"url":"/feeds/posts/default/"+id+"?alt=json",
 "fo":function(e){
 
 let jj = JSON.parse(e);
